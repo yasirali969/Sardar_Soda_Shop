@@ -1,0 +1,6 @@
+{
+  "name": "Sardar Soda",
+  "description": "An online menu, pre-order, and AI drink-recommendation app for Sardar Chill & Grill.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

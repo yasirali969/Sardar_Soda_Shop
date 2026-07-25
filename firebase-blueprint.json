@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "MenuItem": {
+      "title": "MenuItem",
+      "description": "A drink on the menu",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "category": { "type": "string", "enum": ["soda", "milkSoda"] },
+        "priceRegular": { "type": "number" },
+        "priceMedium": { "type": "number" },
+        "priceLarge": { "type": "number" },
+        "imageUrl": { "type": "string" }
+      },
+      "required": ["name", "category", "priceMedium", "priceLarge"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "A customer pre-order",
+      "type": "object",
+      "properties": {
+        "createdAt": { "type": "string", "format": "date-time" },
+        "orderId": { "type": "string" },
+        "items": { "type": "array" },
+        "total": { "type": "number" },
+        "pickupTime": { "type": "string" },
+        "status": { "type": "string" },
+        "uid": { "type": "string" }
+      },
+      "required": ["createdAt", "orderId", "items", "total", "pickupTime", "status"]
+    },
+    "AiRecommendation": {
+      "title": "AiRecommendation",
+      "description": "An AI generated recommendation",
+      "type": "object",
+      "properties": {
+        "createdAt": { "type": "string", "format": "date-time" },
+        "craving": { "type": "string" },
+        "budgetTier": { "type": "string" },
+        "primaryDrink": { "type": "string" },
+        "backupDrink": { "type": "string" }
+      },
+      "required": ["createdAt", "craving", "budgetTier", "primaryDrink", "backupDrink"]
+    }
+  },
+  "firestore": {
+    "/menuItems/{menuItemId}": {
+      "schema": "MenuItem",
+      "description": "Collection of available drinks"
+    },
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Collection of customer orders"
+    },
+    "/aiRecommendations/{recommendationId}": {
+      "schema": "AiRecommendation",
+      "description": "Collection of generated recommendations"
+    }
+  }
+}
