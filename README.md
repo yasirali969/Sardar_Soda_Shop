@@ -89,6 +89,8 @@ Rules:
 ## 📸 App in Action (Gallery & Screens)
 
 We have pre-defined the following mock asset paths in the repository representing the key user interfaces:
+    ![Uploading 1.PNG…]()
+
 
 1. **The Hero & Interactive Assistant**:
    ![Hero & AI Assistant](https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=600)
