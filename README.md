@@ -95,15 +95,19 @@ We have pre-defined the following mock asset paths in the repository representin
 2. **Flavors
 ![Flavors](https://github.com/yasirali969/Sardar_Soda_Shop/blob/158125c19d529e9d8687e6ed86f289f3de98fd4f/ScreenShots/Flavors.PNG?raw=true)
 
-1. **The Hero & Interactive Assistant**:
+3. **AI Recommendation**
+
+![AI Recommendation](https://github.com/yasirali969/Sardar_Soda_Shop/blob/18a643c19a7ae12017c211dd478b77b0f25ffeee/ScreenShots/Ai%20Recommendation.PNG?raw=true)
+
+4. **The Hero & Interactive Assistant**:
    ![Hero & AI Assistant](https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=600)
    *The stunning plum-violet workspace featuring our golden logo branding and live AI Flavor Matcher card.*
 
-3. **The Dynamic Tastebook (Craft & Milk Sodas)**:
+5. **The Dynamic Tastebook (Craft & Milk Sodas)**:
    ![Full Menu Interface](https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600)
    *Slick card panels showing live database-fetched menu items with sizes, counter increments, and add-to-cart buttons.*
 
-4. **Secure Checkout & Order Confirmations**:
+6. **Secure Checkout & Order Confirmations**:
    ![Checkout Panel](https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=600)
    *Our sliding cart panel with instant reference ID generation and time slot selectors for our lovely customers.*
 
