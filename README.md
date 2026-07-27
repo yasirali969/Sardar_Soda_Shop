@@ -90,7 +90,8 @@ Rules:
 
 We have pre-defined the following mock asset paths in the repository representing the key user interfaces:
 1. **Home Page**:
-   https://raw.githubusercontent.com/yasirali969/Sardar_Soda_Shop/63ee56ad701be66f4d57015d8f8ce47446dbcc7e/ScreenShots/CoverPage.PNG
+![Cover Page](https://github.com/yasirali969/Sardar_Soda_Shop/blob/63ee56ad701be66f4d57015d8f8ce47446dbcc7e/ScreenShots/CoverPage.PNG?raw=true)
+
 1. **The Hero & Interactive Assistant**:
    ![Hero & AI Assistant](https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=600)
    *The stunning plum-violet workspace featuring our golden logo branding and live AI Flavor Matcher card.*
